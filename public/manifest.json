@@ -3,9 +3,10 @@
     "name" : "Japi's Forecasts PWA",
     "icons": [
         {
-            "src": "/images/logo.jpeg",
-            "type": "image/jpeg",
-            "sizes": "1024x1024"
+            "src": "/images/logo.png",
+            "type": "image/png",
+            "sizes": "200x200",
+            "purpose": "maskable any"
         }
     ],
     "start_url": ".",
