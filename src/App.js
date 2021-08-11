@@ -9,7 +9,6 @@ const App = () => {
   const search = async (e) => {
     if (e.key === "Enter") {
       const data = await fetchWeather(query);
-      console.log("API key:", process.env.REACT_APP_API_KEY);
       setWeather(data);
       console.log(data);
       setQuery("");
